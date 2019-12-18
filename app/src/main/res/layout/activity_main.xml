@@ -7,10 +7,26 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_above="@id/btRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_centerInParent="true"
+        android:id="@+id/btDelete"/>
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Open List"
         android:layout_centerInParent="true"
         android:id="@+id/btRoom"/>
+
+    <Button
+        android:layout_below="@id/btRoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:layout_centerInParent="true"
+        android:id="@+id/btEdit"/>
 
 </RelativeLayout>
